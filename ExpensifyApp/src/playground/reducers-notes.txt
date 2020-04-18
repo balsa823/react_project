@@ -1,0 +1,29 @@
+
+
+REDUX
+
+
+Kada pravim reducer za neki dio skladista potrebno je da napravim funkciju koja ga pravi 
+
+korisniciRecucer ( state = Vrijednost na pocetku najcesce odredjuje tip [lista], action ) =>{
+    switch(action.type){
+
+        VRACEM OBJEKAT STANJA koji predstavlja novo stanje 
+        ovdje je zgodno koristiti list odnosno object destrucuturing
+        recucer posle sam preklapa to zeljeno stanje sa prethodnim
+
+        koristim metode .map i .filter kada je skladiste lista 
+        pa zelim da neku operaciju izvrsim za svaki clan liste ili neke clanove izbrisem
+
+        sam action generator je arrow funkcija koja stvara objekat akcije na koji OBAVEZNO
+        ima polje TYPE i potencijalno jos neka polja koja kao argumente prihvata
+
+        prilikom prihvatanja argumenata AG-a korinso je cesto koristiti DESTRUKTURIRANJE objekata
+        tako da objekat koji je proslijedjen akciji moze da se preko nekih polja prenese u sam objekat
+        akcije
+
+
+
+    }
+
+}

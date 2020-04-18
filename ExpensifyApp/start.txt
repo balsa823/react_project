@@ -1,0 +1,31 @@
+babel srcapp.js --out-file=publicscriptsapp.js --presets=env,react
+
+
+
+
+
+Kad pokrecem radim   : 
+--------------------
+1. yarn run dev-server
+
+
+Client side routing is modern routing method
+
+Sta se desava kad unesem url prvi put:
+    1. brauzer zna da bi renderovao pravu stvar mora da ode na server i salje 
+    http request - ovaj proces je skup, mi cemo da se fokusiramo na routing na klijentskoj strani
+
+I dalje cemo na pocetku ici na server ali za svaku drugu promjenu cemo da radimo sa JavaScriptom 
+lokalno vec cemo da koristimo HTML5 histori i to nam omogucava da zovemo funkcije JS-a na promjenu
+URL-a. 
+
+Imacemo preslikavanje /url => componenta
+
+
+google : react-router - reacttraining.com/react-router
+
+
+
+
+REDUX:
+
